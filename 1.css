@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght,MONO@200..800,1&display=swap');
+*
+{
+    box-sizing: border-box;
+    font-family:"Sono";
+}
+h1
+{
+    font-size: 3rem;
+    padding:0px;
+    text-align: center;
+    font-family: "Finger Paint";
+}
+h2{
+    font-size:4ch;
+    padding:0.1%;
+    padding-top:0px;
+}
+.paper
+{
+    margin:2%;
+    padding: 2%;
+    background-color: rgba(222, 221, 204, 0.6);
+    border-radius: 1.5cap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+header{
+    margin-top: 5%;
+}
+body
+{
+    background-image: url(BG_TEX.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer
+{
+    margin-top: 13%;
+    position:relative;
+    background-color: #656565;
+    color: rgb(223, 220, 220);
+    width: 100%;
+}
+.links
+{
+    text-decoration: none;
+    color:#b1b1b1
+}
+#data
+{
+    color: rgb(38, 38, 38);
+    text-align: right;
+    
+}
