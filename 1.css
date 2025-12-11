@@ -4,16 +4,17 @@
 {
     box-sizing: border-box;
     font-family:"Sono";
+    font-size:100%;
 }
 h1
 {
-    font-size: 3rem;
-    padding:0px;
+    font-size:350%;
+    padding:3%;
     text-align: center;
     font-family: "Finger Paint";
 }
 h2{
-    font-size:4ch;
+    font-size:200%;
     padding:0.1%;
     padding-top:0px;
 }
@@ -32,12 +33,16 @@ body
 {
     background-image: url(BG_TEX.webp);
     background-repeat: no-repeat;
+    background-position: center ;
     background-size: cover;
 }
 footer
 {
     margin-top: 13%;
-    position:relative;
+    position:static;
+    bottom:0;
+    padding-top:1%;
+    padding-bottom:5%;
     background-color: #656565;
     color: rgb(223, 220, 220);
     width: 100%;
